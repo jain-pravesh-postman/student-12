@@ -1,7 +1,13 @@
 workspace:
   id: a98f50d1-02d1-4763-ba9f-92d8479d05d1
-
 localResources:
   specs:
     - ../contract/index.yaml
-resourceNameMappings: {}
+cloudResources:
+  collections:
+    ../postman/collections/UserAPI - Integration Test Suite: 60252798-051f341c-f744-497e-80e3-21de53181ecc
+  environments:
+    ../postman/environments/Production.environment.yaml: 60252798-a6eff130-7742-439b-a1ba-04da23eecdb4
+    ../postman/environments/Production - Space Student12.environment.yaml: 60252798-c48f0039-ab45-48e5-9e6e-40bbcfd160a1
+  globals:
+    ../postman/globals/workspace.globals.yaml: c90406c9-d60d-40f1-8cfc-19db19c00858
